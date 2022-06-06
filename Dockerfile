@@ -15,11 +15,11 @@ COPY entrypoint.sh /usr/bin
 
 RUN ["chmod", "+x", "/usr/bin/entrypoint.sh"]
 
-RUN ["mkdir", "/mongodb-charts/volumes/logs"]
+#RUN ["mkdir", "/mongodb-charts/volumes/logs"]
 
-RUN ["mkdir", "/mongodb-charts/volumes/keys"]
+#RUN ["mkdir", "/mongodb-charts/volumes/keys"]
 
-RUN ["mkdir", "/mongodb-charts/volumes/db-certs"]
+#RUN ["mkdir", "/mongodb-charts/volumes/db-certs"]
 
 #RUN ["mkdir", "/mongodb-charts/volumes/web-certs"]
 
