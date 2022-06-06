@@ -9,6 +9,7 @@ ARG PASSWORD
 
 ENV EMAIL=${EMAIL} \
     PASSWORD=${PASSWORD}
+CMD chmod +x entrypoint.sh
 
 COPY entrypoint.sh /usr/bin
 
