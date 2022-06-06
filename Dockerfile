@@ -27,6 +27,6 @@ RUN ["chmod", "+x", "/usr/bin/entrypoint.sh"]
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/keys"]
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/db-certs"]
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/web-certs"]
-USER root
+# USER root
 ENTRYPOINT [ "entrypoint.sh" ]
 
