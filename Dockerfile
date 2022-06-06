@@ -14,6 +14,15 @@ CMD chmod +x entrypoint.sh
 COPY entrypoint.sh /usr/bin
 
 RUN ["chmod", "+x", "/usr/bin/entrypoint.sh"]
+
+RUN ["mkdir", "/mongodb-charts/volumes/logs"]
+
+RUN ["mkdir", "/mongodb-charts/volumes/keys"]
+
+RUN ["mkdir", "/mongodb-charts/volumes/db-certs"]
+
+RUN ["mkdir", "/mongodb-charts/volumes/web-certs"]
+
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/logs"]
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/keys"]
 #RUN ["chown", "1000960000:root", "/mongodb-charts/volumes/db-certs"]
