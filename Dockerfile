@@ -12,4 +12,4 @@ ENV EMAIL=${EMAIL} \
 
 COPY entrypoint.sh /usr/bin
 
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT [ "/usr/bin/entrypoint.sh" ]
