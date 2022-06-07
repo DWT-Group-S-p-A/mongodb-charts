@@ -1,6 +1,6 @@
 FROM quay.io/mongodb/charts:19.12.1
 
-LABEL maintainer="thepliable2@gmail.com"
+LABEL maintainer="luciano.dileonardo@dabpumps.com"
 
 # RUN apt-get update
 # USER charts
